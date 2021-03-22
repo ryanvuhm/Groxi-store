@@ -1,0 +1,42 @@
+
+.shop-list-nav__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.shop-list-nav__top > p {
+    font-size: 1.25rem;
+}
+.shop-list-nav__top > .dropdown {
+    position: relative;
+    top: -8px;
+}
+.shop-list-nav__top > .dropdown > a {
+    font-size: 1.25rem;
+}
+.shop-list-nav__top--left {
+    display: flex;
+}
+
+.shop-list-nav__top--left > i {
+    font-size: 2rem;
+}
+.shop-list-nav__top--left > p {
+    font-size: 1.25rem;
+}
+.shop-list-nav__bottom {
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    border-color: grey;
+    margin-left: 20px;
+    padding-top: 6px;
+}
+
+.shop-list-categories > div > label {
+    position: relative;
+    top: -2.5px;
+}
