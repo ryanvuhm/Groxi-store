@@ -37,19 +37,22 @@ a.btn__subscribe:hover {
 
 
 .footer-bg {
-    margin-top: 400px;
+    /* margin-top: 400px; */
     background-color: #14462e;
 }
 .footer-bg > img {
-    position: relative;
-    left: 50px;
-    top: -333px;
+    position: absolute;
+    left: 423px;
+    top: 284rem;
+}
+
+.footer-subscribe-container {
+    display: relative;
+    height: 100%;
 }
 
 .footer-subscribe-form {
-    display:relative;
-
-
+    display:absolute;
     top: 10px;
 }
 
